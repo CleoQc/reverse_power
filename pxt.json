@@ -3,17 +3,23 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "gigglesensors": "github:dexterind/pxt-gigglesensors#v0.1",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.7",
+        "radio-broadcast": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "gigglebot.ts",
+        "giggle.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "supportedTargets": [
         "microbit"
-    ]
+    ],
+    "preferredEditor": "blocksprj"
 }
